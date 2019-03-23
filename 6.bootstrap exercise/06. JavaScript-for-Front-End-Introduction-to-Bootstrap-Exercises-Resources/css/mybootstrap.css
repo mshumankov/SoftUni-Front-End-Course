@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Catamaran:800');
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+h1, h2, h3 {
+    font-family: 'Catamaran', sans-serif !important;
+}
+section.background {
+    background-image: url("file:///E:/programirane/kurs/javascript%20front-end/6.bootstrap%20exercise/06.%20JavaScript-for-Front-End-Introduction-to-Bootstrap-Exercises-Resources/img/bg-1.jpg");
+    height: 26rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.jumbotron {
+    width: 23rem;
+    height: 23rem;
+}
+ul {
+    padding: 0;
+}
+li {
+    list-style: none;
+}

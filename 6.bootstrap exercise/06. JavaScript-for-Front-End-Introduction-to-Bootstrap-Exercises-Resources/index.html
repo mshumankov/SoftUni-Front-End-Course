@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+  <!-- css custom -->
+  <link rel="stylesheet" href="css/mybootstrap.css">
+  <title>Bootstrap site</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.html">WELCOME TO BOOTSTRAP</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="components.html">COMPONENTS<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item mr-5">
+            <a class="nav-link" href="blog.html">BLOG</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="background container-fluid d-flex flex-column align-items-center justify-content-center">
+      <div class="mt-5 text-center">
+        <h1 class="display-1">Bootstrap</h1>
+        <p class="display-4">Front-end component library</p>
+      </div>
+    </section>
+    <section class="content container-fluid col-lg-8 col-md-12">
+      <article class="d-flex flex-column flex-md-row justify-content-md-between align-items-md-center mt-5 mb-5">
+        <div class="col-md-5 col-sm-12">
+          <h1>Introduction to Bootstrap...</h1>
+          <p>Bootstrap is an open source toolkit for developing with HTML,
+            CSS, and JS. Quickly prototype your ideas or build your entire
+            app with our Sass variables and mixins, responsive grid system,
+            extensive prebuilt components, and powerful plugins built on jQuery.</p>
+        </div>
+        <div class="col-md-5 col-sm-12 border-left border-bottom">
+          <img src="img/01.png" class="img-fluid p-5" alt="Responsive image">
+        </div>
+      </article>
+      <article class="d-flex flex-column flex-md-row justify-content-md-between align-items-md-center mt-5 mb-5">
+        <div class="col-md-5 col-sm-12 border-left border">
+          <img src="img/02.jpg" class="img-fluid p-5" alt="Responsive image">
+        </div>
+        <div class="col-md-5 col-sm-12">
+          <h1>Bootstrap Grid System...</h1>
+          <p>Bootstrap is an open source toolkit for developing with HTML,
+            CSS, and JS. Quickly prototype your ideas or build your entire
+            app with our Sass variables and mixins, responsive grid system,
+            extensive prebuilt components, and powerful plugins built on jQuery.</p>
+        </div>
+      </article>
+      <article class="d-flex flex-column flex-md-row justify-content-md-between align-items-md-center mt-5 mb-5">
+        <div class="col-md-5 col-sm-12">
+          <h1>Themes...</h1>
+          <p>Using the themes is as easy as downloading a CSS
+            file and replacing the one that comes with Bootstrap.
+            You can install as a package via npm with the command
+            npm install bootswatch. You can also hotlink the themes
+            via CDN at BootstrapCDN.
+
+          </p>
+        </div>
+        <div class="col-md-5 col-sm-12 border-left border-bottom">
+          <img src="img/03.png" class="img-fluid p-5" alt="Responsive image">
+        </div>
+      </article>
+    </section>
+  </main>
+  <footer class="footer p-3 bg-dark text-center">
+    <p class="mb-0 text-white">Copyright © аntoniyaat 2018</p>
+  </footer>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
